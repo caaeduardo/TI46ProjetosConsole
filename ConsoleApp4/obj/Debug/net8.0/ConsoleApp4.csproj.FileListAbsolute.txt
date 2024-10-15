@@ -12,3 +12,4 @@ C:\Users\giovanne.smarcondes\source\repos\ConsoleApp4\ConsoleApp4\obj\Debug\net8
 C:\Users\giovanne.smarcondes\source\repos\ConsoleApp4\ConsoleApp4\obj\Debug\net8.0\ConsoleApp4.pdb
 C:\Users\giovanne.smarcondes\source\repos\ConsoleApp4\ConsoleApp4\obj\Debug\net8.0\ConsoleApp4.genruntimeconfig.cache
 C:\Users\giovanne.smarcondes\source\repos\ConsoleApp4\ConsoleApp4\obj\Debug\net8.0\ref\ConsoleApp4.dll
+C:\Users\giovanne.smarcondes\source\repos\ConsoleApp4\ConsoleApp4\obj\Debug\net8.0\ConsoleApp4.sourcelink.json
