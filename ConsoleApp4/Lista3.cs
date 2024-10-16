@@ -83,21 +83,21 @@ namespace ProjetosConsole
         {
             Console.WriteLine("4.\tFaça um programa que retorne à quantidade de números pares existente entre 35 e 98111");
             {
-                
-        
-            int inicio = 35;
-            int fim = 98111;
-            int contadorPares = 0;
 
-            for (int i = inicio; i <= fim; i++)
-            {
-                if (i % 2 == 0)
+
+                int inicio = 35;
+                int fim = 98111;
+                int contadorPares = 0;
+
+                for (int i = inicio; i <= fim; i++)
                 {
-                    contadorPares++;
+                    if (i % 2 == 0)
+                    {
+                        contadorPares++;
+                    }
                 }
-            }
 
-            Console.WriteLine($"A quantidade de números pares entre {inicio} e {fim} é: {contadorPares}");
+                Console.WriteLine($"A quantidade de números pares entre {inicio} e {fim} é: {contadorPares}");
             }
             Console.WriteLine("Fim do exercício 4\n");
             Console.WriteLine("-------------------------------------------------------------");
@@ -105,18 +105,18 @@ namespace ProjetosConsole
         internal void Exe5()
         {
             Console.WriteLine("5.\tFaÇa um programa que some todos os números ímpares de 1 até 5000\n");
-            
-                   
-                    {
-                        int soma = 0;
 
-                        for (int i = 1; i <= 5000; i += 2)
-                        {
-                            soma += i;
-                        }
 
-                        Console.WriteLine("A soma dos números ímpares de 1 a 5000 é: " + soma);
-                    }
+            {
+                int soma = 0;
+
+                for (int i = 1; i <= 5000; i += 2)
+                {
+                    soma += i;
+                }
+
+                Console.WriteLine("A soma dos números ímpares de 1 a 5000 é: " + soma);
+            }
             Console.WriteLine("Fim do exercício 5");
             Console.WriteLine("-------------------------------------------------------------");
         }
@@ -126,9 +126,22 @@ namespace ProjetosConsole
             Console.WriteLine("6.Faça um programa que receba um número e usando laços de repetição calcule e mostre a tabuada desse número.\n");
             {
 
+                {
+                    Console.WriteLine("Digite um número para calcular a tabuada: ");
+                    int numero = Convert.ToInt32(Console.ReadLine());
+
+                    Console.WriteLine("\nTabuada do " + numero + ":");
+
+                    // Usando um laço for
+                    for (int i = 1; i <= 10; i++)
+                    {
+                        int resultado = numero * i;
+                        Console.WriteLine(numero + " x " + i + " = " + resultado);
+                    }
+                }
+                Console.WriteLine("Fim do exercício 6");
+                Console.WriteLine("-------------------------------------------------------------");
             }
-            Console.WriteLine("Fim do exercício 6");
-            Console.WriteLine("-------------------------------------------------------------");
         }
     }
 }
